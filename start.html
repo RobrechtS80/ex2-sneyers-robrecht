@@ -8,8 +8,8 @@
 <FORM name="Calculator">
  <table border="4">  <!--OUTER BORDER OF CALCULATOR, PANELS-->
   <tr>   <!--TOP PANEL------>
-    <td colspan="2">A Simple JavaScript Calculator<br>
-      <input type="text" maxlength="40" size="30" name="Display">
+    <td colspan="2">Calculator<br>
+      <input type="text" maxlength="40" size="11" name="Display">
     </td>
   </tr>  <!--END TOP PANEL---> 
   <tr>
@@ -19,25 +19,28 @@
          <td><input type="button" value="7"></td>
          <td><input type="button" value="8"></td>
          <td><input type="button" value="9"></td>
+          <td><input type="button" value="X"></td>
        </tr>
        <tr>
          <td><input type="button" value="4"></td>
          <td><input type="button" value="5"></td>
          <td><input type="button" value="6"></td>
+          <td><input type="button" value="/"></td>
        </tr>
               <tr>
          <td><input type="button" value="1"></td>
          <td><input type="button" value="2"></td>
          <td><input type="button" value="3"></td>
+          <td><input type="button" value="+"></td>
+       </tr>
+       <tr>
+         <td><input type="button" value="="></td>
+         <td><input type="button" value="0"></td>
+         <td><input type="button" value="."></td>
+         <td><input type="button" value="-"></td>
        </tr>
       </table>
     </td><!--END LEFT PANEL-->
-    <td> <!--RIGHT PANEL----->
-      <table>
-         {right panel is similar in overall structure to left}
-      </table>
-    </td><!--END RIGHT PANEL->
-  </tr></table>
 </FORM>
 <script>
 
