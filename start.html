@@ -16,7 +16,7 @@
     <td> <!--LEFT PANEL------>
       <table>
        <tr>
-         <td><input type="button" value="7"></td>
+         <td><input type="button" value="7" OnClick="add('7')"></td>
          <td><input type="button" value="8"></td>
          <td><input type="button" value="9"></td>
           <td><input type="button" value="X"></td>
@@ -43,8 +43,11 @@
     </td><!--END LEFT PANEL-->
 </FORM>
 <script>
-
-
+var Current ="";
+function add (a) {
+  Current += a;
+  document.Calculator.Display.value = Current;
+}
 </script>
     </body>
 </html>
